@@ -1,0 +1,58 @@
+.menu{
+    background-color: rgb(255, 180, 40);
+}
+
+.menu__header{
+    display: flex;
+    padding: 0 2rem;
+}
+
+.menu__header img{
+    height: 30px;
+    padding-top: 1rem;
+}
+
+.menu__title{
+    color: #e8e8ef;
+    font-size: 40px;
+}
+
+nav{
+    background-color: #e8e8ef;
+}
+
+.menu__list{
+    padding: 1rem;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu__list__item{
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 1vw;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+.menu__list__item a{
+    font-size: 2rem;
+    color: #4e4e4e;
+    text-align: center;
+}
+
+.menu__list__item__contato{
+    text-align: right;
+    text-decoration: none;
+}
+
+[data-content]{
+    display: none;
+    
+}
+
+.act[data-content]{
+    display: block;
+}

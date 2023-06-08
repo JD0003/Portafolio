@@ -1,0 +1,34 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 119, 119);
+    padding: 1rem;
+    color: #f5f5f5;
+}
+
+.skills__title{
+    align-self: center;
+    margin: 1rem;
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.skills__box{
+    margin: 0.5rem;
+}
+
+.skills__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills__name{
+    margin-top: 0.5rem;
+    
+}

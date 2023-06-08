@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer__rodape{
+    margin: 1rem;
+}
+
+.footer__rodape p{
+    margin: 1rem;
+}
